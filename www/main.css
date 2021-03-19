@@ -1,0 +1,534 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1170px;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center
+}
+.header {
+    max-width: 100%;
+    background: url(..//www/intro__bg.jpg) no-repeat center top ;
+    background-size: cover;
+    
+}
+.menu {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    
+}
+.nav__link {
+    
+   
+    font-family: 'Kaushan Script', cursive;
+    margin-right: 25px ;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color .2s linear;
+    
+    
+}
+.nav__link:hover {
+    color: #0b8f9b;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+.header__label {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: #fff; /* Цвет линии */
+    color: #fff; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    
+   }
+
+.label {
+    padding-top: 400px ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 100px;
+    margin: 0;
+}
+.und__lbl {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+    
+    
+}
+.btndiv {
+    
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 25px;
+}
+.intro__b {
+   
+    margin: 0;
+    vertical-align: top;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 50px;
+    transition: color .2s linear;
+     
+}
+.intro__b:hover {
+    margin: 0;
+    vertical-align: top;
+    border: 2px solid #0b8f9b;;
+    padding: 10px 15px;
+    color: #0b8f9b;;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 50px;
+}
+.Size {
+    padding-top: 350px;
+}
+
+.about {
+    background-color: #151a1b;
+    margin: 0;
+}
+.aboutlbl {
+    background-color: #222728;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+}
+.undlbl {
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.abouttext {
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.abimg {
+    
+    display: flex;
+    
+    justify-content: center;
+}
+.destinations {
+    background-color: #151a1b;
+    margin: 0;
+}
+
+
+.und_label {
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.distlbl {
+    background-color: #222728;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+}
+.distundlbl {
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.weblbl {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+.web {
+    display: flex;
+}
+.aboutweb {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+.web__inner {
+    margin-right: auto;
+    padding: 15px;
+}
+.webicon {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+
+
+.iotlbl {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+.iot {
+    display: flex;
+}
+.aboutiot {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+    padding-top:2px;
+    margin: 0;
+}
+.iot__inner {
+    margin-left: auto;
+    padding: 15px;
+}
+.ioticon {
+    width: 50px;
+    height: 50px;
+}
+.ioticon {
+    margin: 0;
+}
+
+
+
+.vrlbl {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+.vr {
+    display: flex;
+}
+.aboutvr {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+.vr__inner {
+    margin-right: auto;
+    padding: 15px;
+}
+.vricon {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+
+.designlbl {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+.design {
+    display: flex;
+}
+.aboutdesign {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+.design__inner {
+    margin: 0;
+    padding: 15px;
+}
+.designicon {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.first__line {
+    display: flex;
+    justify-content: space-between;
+}
+.second__line {
+    display: flex;
+    justify-content: space-between;
+}
+.Teachers {
+    background-color: #151a1b;
+    margin: 0;
+}
+.teachlbl {
+    background-color: #222728;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+}
+.video {
+    padding-top: 15px;
+    border: 2px solid #fff;
+}
+.teachundlbl {
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.OlegEvgen {
+    margin: 0;
+    padding-top: 15px;
+
+}
+.beginOleg {
+    margin: 0;
+    display: flex;
+    align-items: center;
+} 
+.Name1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+.OlegAbout {
+    margin: 0;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.VyacheslavZabel {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.beginVyacheslav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.Name2 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+
+.VyacheslavAbout {
+    margin: 0;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.VyacheslavChibup {
+    margin: 0;
+    padding-top: 15px;
+}
+.begin2Vyacheslav {
+    margin: 0;
+    display: flex;
+    align-items: center; 
+}
+
+.Name3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+
+.Vyacheslav2About2 {
+    margin: 0;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.KrisAleks {
+    margin: 0;
+    padding-top: 15px;
+}
+.beginKris {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.Name4 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+.KristinaAbout {
+    margin: 0;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.AleksBusigin {
+    margin: 0;
+    padding-top: 15px;
+}
+.beginAleks {
+    margin: 0;
+    display: flex;
+    justify-items: center;
+}
+.Name5 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+.AleksAbout {
+    margin: 0;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.Teacher__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.AlinaAleks {
+    margin: 0;
+    padding-top: 15px;
+}
+.beginAlina {
+    margin: 0;
+    display: flex;
+    justify-items: center;
+}
+.Name6 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+.Alinaabout {
+    margin: 0;
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.footer {
+    background-color: #222728;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.telephone {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+    transition: color .2s linear;
+}
+.telephone:hover {
+    color: #0b8f9b;
+    
+}
+.Footer__title {
+    display: flex;
+    align-items: center;
+}
+.email {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    transition: color .2s linear;
+}
+.email:hover {
+    color: #0b8f9b;
+}
+.socicon {
+    display: flex;
+    padding-left: 25px;
+}
+.SFIT {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.Develop {
+    color: #fff;
+    
+}
+.abimg {
+    max-width: 100%;
+
+}
+.img1 {
+    max-width: 100%;
+}
+.img2 {
+    max-width: 100%;
+}
+.img3 {
+    max-width: 100%;
+}
